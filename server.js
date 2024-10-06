@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import { connectToDB } from "./ConnectDB.js";
 import perfumesRouter from "./Routes/Perfumes.routes.js";
-import authRoutes from "./routes/auth.routes.js";
+import authRoutes from "./Routes/auth.routes.js";
 
 const app = express();
 const corsOptions = {
